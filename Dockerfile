@@ -14,6 +14,8 @@ RUN sudo apt-get update && \
 		sudo apt-get purge -y cmake g++ pkg-config && \
     sudo rm -rf /var/lib/apt/lists/*
 
+ENV TERM xterm-256color
+
 EXPOSE 7681
 
 ENTRYPOINT ["ttyd"]
