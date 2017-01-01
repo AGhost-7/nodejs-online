@@ -2,12 +2,6 @@
 
 set -e
 
-set -o verbose
-
 docker build -t aghost7/nodejs-online .
 
-docker run -d --name nodejs-online 
-
-docker kill nodejs-online
-
-docker rm nodejs-online
+docker run --rm -ti -p 7681:7681 aghost7/nodejs-online -c aghost7:hai bash
