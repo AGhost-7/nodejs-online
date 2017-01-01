@@ -1,9 +1,11 @@
 # NodeJS Online
 Develop from a remote terminal right in the browser.
 
-Please note that this is pre-alpha.
+Example startup command:
 
-## TODO
-- Fail2ban or some other brute force protection for login.
-- Font issues...
-- Terminal rendering issues (overlaps into the scrollbar).
+```
+docker run -d -p 7681:7681 aghost7/nodejs-online -c aghost7:thisisapassword bash
+```
+
+Please refer to the [ttyd](https://github.com/tsl0922/ttyd) documentation for details on how to run.
+
