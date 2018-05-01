@@ -1,8 +1,7 @@
 # NodeJS Online
 Develop from a remote terminal right in the browser.
 
-![Screenshot]
-(https://raw.githubusercontent.com/AGhost-7/nodejs-online/master/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/AGhost-7/nodejs-online/master/screenshot.png)
 
 Example startup command:
 
